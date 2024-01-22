@@ -13,7 +13,7 @@ const MovieCard = ({ data }) => {
             image?.medium ||
             "https://t4.ftcdn.net/jpg/02/51/95/53/360_F_251955356_FAQH0U1y1TZw3ZcdPGybwUkH90a3VAhb.jpg"
           }
-          alt="movie-image"
+          alt="movie"
           className="w-[200px] h-[250px]"
         />
       </div>

@@ -7,7 +7,7 @@ const SummaryPage = () => {
   // console.log(movieData);
   const movieId = useParams();
 
-  const filteredData = movieData.filter((e) => e.show.id == movieId.movieId);
+  const filteredData = movieData.filter((e) => e.show.id === movieId.movieId);
   const { show } = { ...filteredData[0] };
   const { name, image, rating, summary } = { ...show };
 
